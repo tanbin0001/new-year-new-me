@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+.font-weight{
+    font-weight: 700;
+}
+/* icon style */
+.fa-check{
+    color: rgb(6, 242, 6);
+}
+/* header styles */
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/banner/banner6.png');
+    background-position: center;
+    background-size: cover;
+    justify-content: end;
+}
+.banner{
+  text-align: start;
+   padding-top: 250px;
+   padding-left:660px ;
+   
+
+}
+
+.banner-title{
+    color: white;  
+font-size: 50px;
+}
+
+.banner-description{
+    padding: 32px 0;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 400;
+font-size: 16px;
+}
+/* button styles */
+.btn-primary{
+    
+    padding: 10px 15px;
+     color: black;
+     background-color: white;
+     border: none;
+     border-radius:5px;
+     font-weight: 600;
+font-size: 20px;
+}
+
+/* My failures styles */
+.tips{
+    display: flex;
+    align-items: center;
+    margin: 200px 100px;
+    gap: 50px;
+}
+.tips-contant{
+    text-align: left;
+}
+.tips-title{
+    font-size: 40px;
+   
+    font-family: 'Work Sans', sans-serif;
+ 
+}
+.tips-description{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding: 20px 0;
+}
+.tips-points{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding: 8px 0;
+}
+
+/* My plans style */
+.my-plans{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.plans-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+.plans-container{
+    padding-top: 50px ;
+    margin-left: 55px;
+    display: flex;
+}
+.plan{
+    padding-left: 60px;
+}
+.plan-title{
+    font-weight: 700;
+font-size: 30px;
+}
+.plan-description{
+    color: #737272;
+    font-weight: 500;
+font-size: 25px;
+}
+/* Awlays keep a positive mindset styles */
+.call-section{
+    background-image: url("../images/watch.png"),url("../images/gradient1.png") ;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.call-now{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 20px;
+    margin: 200px 0;
+}
+
+.call-section-title{
+    font-weight: 700;
+font-size: 40px;
+color: white;
+}
+
+/* footer styles */
+footer{
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding:130px 200px ;
+    gap: 200px;
+}
+.footer-title{
+    font-weight: 700;
+font-size: 45px;
+}
+.footer-description{
+    font-weight: 400;
+font-size: 16px;
+padding: 10px 0;
+}
+.information{
+    font-weight: 400;
+font-size: 16px;
+padding: 10px 0;
+}
+.subscribe{
+     
+}
+.subscribe input{
+    width: 325px;
+height: 50px;
+background-color: black;
+border:1px solid white;
+text-align: center;
+border-radius: 5px;
+}
+.subscribe-title{
+    padding-bottom: 10px;
+}
+ 
